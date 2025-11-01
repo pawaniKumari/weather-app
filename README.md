@@ -1,11 +1,11 @@
 # Weather App
 
-A full-stack weather application with a React + Vite frontend and a Node.js/Express backend. Auth0 is used for authentication.
+A full-stack weather application with a React + Vite frontend and a Node.js/Express backend. Auth0 is used for authentication with multifactor authentication (MFA) enabled. When logging in after entering your credentials you will be prompted to enter a code from an authenticator app (such as Google Authenticator).
 
 ## Features
 
 - View weather data for cities
-- Auth0 authentication for secure access
+- Auth0 authentication with multifactor authentication (MFA) for secure access
 - Responsive UI with Tailwind CSS
 
 ## Project Structure
